@@ -1,0 +1,33 @@
+@import "../../../../global";
+@import "../widgets";
+
+.index {
+  @include widget;
+  height: 128px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+  h2 {
+    font-size: 1.14rem;
+  }
+}
+
+.value {
+  .amount {
+    @include widget__value__amount;
+    font-weight: 800;
+    font-size: 2.43rem;
+    line-height: 1.1;
+  }
+
+  .indicator {
+    @include widget__value__indicator;
+    span {
+      margin-left: 1px;
+    }
+  }
+
+  .detail {
+    @include widget__detail;
+  }
+}

@@ -1,0 +1,27 @@
+.circleProgressContainer {
+  position: relative;
+}
+
+.circleProgress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  circle {
+    transform: translate(50%, 50%) rotate(-90deg);
+  }
+}
+
+.diamond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 26px;
+  top: 50%;
+  left: 0;
+  position: absolute;
+  transform: translate(0, -50%);
+}

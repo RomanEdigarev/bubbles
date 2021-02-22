@@ -1,0 +1,40 @@
+.bubble {
+  font-size: 95%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(269.95deg, #E323FF 0.02%, #7517F8 97.45%);
+  box-shadow: 0 0 20px rgba(255, 147, 147, 0.13), 60px 120px 80px rgba(5, 0, 255, 0.2), 0 4px 80px rgba(248, 0, 119, 0.48), inset 0 2px 10px rgba(255, 255, 255, 0.58), inset 10px 20px 100px #FF0000;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  h2, h3, h4 {
+    letter-spacing: 0.44px;
+  }
+  h2 {
+    font-size: 1.43em;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+
+  h3 {
+    font-size: 1.43em;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  h4 {
+    line-height: 1.43;
+    opacity: 0.3;
+  }
+}

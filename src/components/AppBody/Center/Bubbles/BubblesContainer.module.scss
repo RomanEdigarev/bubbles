@@ -1,0 +1,29 @@
+@import "./src/global.scss";
+
+.bubblesContainer {
+  position: relative;
+  width: 863px;
+  height: 778px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbital, .orbitalSmall {
+  position: absolute;
+  top: 0;
+  border: 1px solid $blueishBlack;
+  border-radius: 300%;
+  z-index: -10;
+}
+.orbital {
+  width: 778px;
+  height: 778px;
+}
+.orbitalSmall {
+  width: 648px;
+  top: 50%;
+  height: 648px;
+  transform: translateY(-50%);
+}
+

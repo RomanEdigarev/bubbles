@@ -1,0 +1,40 @@
+.changePeriod {
+  position: absolute;
+  margin-top: 40px;
+  width: 345px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  z-index: 2;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 53px;
+    height: 32px;
+    cursor: pointer;
+  }
+}
+
+.period {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 32px;
+  //background-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.outline {
+  z-index: -2;
+  position: absolute;
+  border-radius: 16px;
+  background-color: transparent;
+  //border: 1px solid white;
+}
